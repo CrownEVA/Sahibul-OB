@@ -1,0 +1,218 @@
+body{
+    
+    margin: 0%;
+    padding: 0%;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    position: relative;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 .4rem .8rem rgba(121, 121, 121, 0.333);
+    z-index: 1;
+}
+ul{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.logo{
+    padding-left: 150px;
+}
+.logo a{
+    text-decoration: none;
+   font-size: 50px;
+   color: rgb(0, 0, 0);
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 150px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+
+    background-color:#14609e;
+    color: white;
+    border-radius: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search{
+    margin: 17px;
+    width: 400px;
+    height: 30px;
+
+    border-radius: 15px;
+    border-color: rgb(220, 220, 220);
+}
+.AddUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    width: 100px;
+    height: 30px;
+    margin: 17px;
+    background-color: white;
+
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgb(220, 220, 220);
+
+}
+.AddUser:hover{
+    background-color:#14609e;
+}
+.AddUser a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+}
+.AddUser a:hover{
+    color: white;
+}
+.square{
+    
+    margin-left: 150px;
+    margin-right:150px;
+    min-width: 1000px;
+    height: 400px;
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+    overflow: auto;
+}
+.header{
+    margin-left: 150px;
+    margin-right:150px;
+    min-width: 1000px;
+    height: 60px;
+
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.table tr td img{
+    width: 15px;
+    height: 15px;
+
+}
+table{
+   width: 100%;
+   position: relative ;
+}
+table th{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0px;
+}
+table,th,td{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+tbody tr{
+    background-color: rgba(0, 0, 0, 0.043);
+}
+th{
+    background-color: #cfcfcffe;
+}
+td{
+    
+}
+tr:nth-of-type(even){
+    background-color: rgba(255, 255, 255, 0.043);
+}
+.dropdown {
+    position: relative; /* Set position to relative */
+    display: inline-block; /* Ensure inline-block for proper alignment */
+
+  }
+  
+  /* Style the dropdown button */
+  .dropbtn {
+    background-color: rgba(255, 255, 255, 0.043);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    left: 0; /* Position the dropdown content to the left of the button */
+    top: 100%; /* Position the dropdown content below the button */
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when hovered */
+  .dropdown:hover .dropbtn {
+    background-color: #2980b9;
+  }

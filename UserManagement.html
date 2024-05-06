@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UserManagement.css">
+</head>
+<body>
+    <div class="one">
+        <div class="navigationbar">
+
+            <div class="logo"><a href="adminside.html">OB</a></div>
+
+            <ul>
+                <li><a href="adminside.html">Overview</a></li>
+                <li><a href="UserManagement.html">Store Management</a></li>
+                <li><a href="ID-Management.html">ID & Booklet Management</a></li>
+                <li><a href="">Reports</a></li>
+                <li><a href="Untitled-1.html">Log Out</a></li>
+            </ul>
+
+            <div style="display: flex; justify-content: center;align-items: center; padding-right: 150px;">
+            <img style="width: 20px; height: 20px; padding: 5px;" src="search.png" >
+            <img style="width: 20px; height: 20px; padding: 5px;" src="cowbell.png" >
+            <img style="width: 20px; height: 20px; padding: 5px;" src="1x1.jpg" >
+            </div>
+        </div>
+
+        <div class="two">
+            <h1>Store Management</h1>
+            <div class="square">
+                <div class="UM">
+                    <div class="firstlayer">
+                        <div>
+                            <select name="Filter" id="filter">
+                                <option value="Filter">Filter</option>
+                                <option value="">Status</option>
+                                <option value="">Date Created</option>
+                                <option value="">Location</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input class="search" type="search">
+                        </div>
+                        <div style="display: flex;">
+                            
+                            <div class="AddUser">
+                                <a href="Add-User.html">Add User</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="secondlayer">
+                        <table class="users">
+                            <tr class="space">
+                                <th><input type="checkbox"></th>
+                                <th>User Details</th>
+                                <th>Email</th>
+                                <th>Location</th>
+                                <th>Date Created</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Cecil's Pharamacy Guiwan Highway Branch</td>
+                                <td>cecilspharmacy@gmail.com</td>
+                                <td>Guiwan, Maria Clara Lorenzo Lobregat Hwy, Zamboanga, Zamboanga del Sur</td>
+                                <td>December 12, 2020</td>
+                                <td>Active</td>
+                                <td><div class="dropdown">
+                                    <button class="dropbtn"><img src="dots.png"></button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Deactivate</a>
+                                      <a href="">View More</a>
+                                    </div>
+                                  </div></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Cecil's Pharmacy San Roque Branch</td>
+                                <td>cecilspharmacy@gmail.com</td>
+                                <td>San Roque Rd, Barangay San Jose Gusu, Zamboanga, Zamboanga del Sur</td>
+                                <td>February 20, 2019</td>
+                                <td>Active</td>
+                                <td><div class="dropdown">
+                                    <button class="dropbtn"><img src="dots.png"></button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Deactivate</a>
+                                      <a href="">View More</a>
+                                    </div>
+                                  </div></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Cecil's Pharmacy Main Branch</td>
+                                <td>cecilspharmacy@gmail.com</td>
+                                <td>Veterance Ave Ext., Zamboanga, Zamboanga del Sur</td>
+                                <td>October 17, 2003</td>
+                                <td>Active</td>
+                                <td><div class="dropdown">
+                                    <button class="dropbtn"><img src="dots.png"></button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Deactivate</a>
+                                      <a href="">View More</a>
+                                    </div>
+                                  </div></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Cecil's Pharamcy Sta. Maria Branch</td>
+                                <td>cecilspharmacy@gmail.com</td>
+                                <td>Gov. Ramos Ave, Zamboanga, Zamboanga del Sur</td>
+                                <td>April 28, 2000</td>
+                                <td>Active</td>
+                                <td><div class="dropdown">
+                                    <button class="dropbtn"><img src="dots.png"></button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Deactivate</a>
+                                      <a href="">View More</a>
+                                    </div>
+                                  </div></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Cecil's Pharamcy Sta. Maria Branch</td>
+                                <td>cecilspharmacy@gmail.com</td>
+                                <td>Gov. Ramos Ave, Zamboanga, Zamboanga del Sur</td>
+                                <td>April 28, 2000</td>
+                                <td>Active</td>
+                                <td><div class="dropdown">
+                                    <button class="dropbtn"><img src="dots.png"></button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Deactivate</a>
+                                      <a href="">View More</a>
+                                    </div>
+                                  </div></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>Cecil's Pharamcy Sta. Maria Branch</td>
+                                <td>cecilspharmacy@gmail.com</td>
+                                <td>Gov. Ramos Ave, Zamboanga, Zamboanga del Sur</td>
+                                <td>April 28, 2000</td>
+                                <td>Active</td>
+                                <td><div class="dropdown">
+                                    <button class="dropbtn"><img src="dots.png"></button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Deactivate</a>
+                                      <a href="">View More</a>
+                                    </div>
+                                  </div></td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    
+</body>
+</html>

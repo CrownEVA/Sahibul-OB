@@ -1,0 +1,155 @@
+body{
+    
+    margin: 0%;
+    padding: 0%;
+}
+.one{
+    width: 100%;
+    height: 100vh;
+    background: url(Bg\ admin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.logo{
+    padding-left: 150px;
+}
+.logo a{
+    text-decoration: none;
+   font-size: 50px;
+   color: rgb(255, 255, 255);
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    padding-left: 150px;
+}
+#date{
+    margin-right: 150px;
+    padding: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+
+    background-color:#14609e;
+    color: white;
+    border-radius: 15px;
+}
+
+.search{
+    margin: 17px;
+    width: 400px;
+    height: 30px;
+
+    border-radius: 15px;
+    border-color: rgb(220, 220, 220);
+}
+.AddUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    width: 100px;
+    height: 30px;
+    margin: 17px;
+    background-color: white;
+
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: rgb(220, 220, 220);
+
+}
+.square{
+    
+    margin-left: 150px;
+    margin-right:150px;
+    min-width: 1000px;
+    height: 400px;
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+    overflow: auto;
+}
+.header{
+    margin-left: 150px;
+    margin-right:150px;
+    min-width: 1000px;
+    height: 60px;
+
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.table tr td img{
+    width: 15px;
+    height: 15px;
+
+}
+table{
+   width: 100%;
+}
+table th{
+    position: sticky;
+    top: 0px;
+}
+table,th,td{
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+tbody tr{
+    background-color: rgba(0, 0, 0, 0.043);
+}
+th{
+    background-color: #cfcfcffe;
+}
+td{
+    
+}
+tr:nth-of-type(even){
+    background-color: rgba(255, 255, 255, 0.043);
+}

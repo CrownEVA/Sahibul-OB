@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adminside.css">
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Month', 'Grocery', 'Pharmacy'],
+          ['January',  5234678,      4590234],
+          ['February',  3236789,      1295036],
+          ['March',  2391840,       4389201],
+          ['April',  6830457,      6940329],
+          ['May',  1423578,      3482934],
+          ['June',  1748503,      7304753],
+          ['July',  4870584,      2684039],
+          ['August',  3245674,      4860382],
+          ['September',  6326849,      1234563],
+          ['October',  8593045,      2345672],
+          ['November',  1345234,      8549302],
+          ['December',  7940356,      7214532],
+        ]);
+
+        var options = {
+          title: 'Annual Expense of Budget',
+          hAxis: {title: 'Month',  titleTextStyle: {color: '#333'}},
+          vAxis: {minValue: 0}
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+    
+</head>
+<body>
+    <div class="one">
+        <div class="navigationbar">
+            <div class="logo"><a href="">OB</a></div>
+            <ul>
+                <li><a href="adminside.html">Overview</a></li>
+                <li><a href="UserManagement.html">User Management</a></li>
+                <li><a href="ID-Management.html">ID & Booklet Management</a></li>
+                <li><a href="">Reports</a></li>
+                <li><a href="">Log Out</a></li>
+            </ul>
+            <div style="display: flex; justify-content: center;align-items: center; padding-right: 150px;">
+            <img style="width: 20px; height: 20px;" src="search.png" >
+            <img style="width: 20px; height: 20px;" src="cowbell.png" >
+            <img style="width: 20px; height: 20px;" src="1x1.jpg" >
+            </div>
+        </div>
+    <div class="two">
+        <div >
+            <h1>Welcome back!</h1>
+            <p>Track and manage your users and clients</p>
+        </div>
+        <div>
+            <input type="date" id="date">
+            <button id="button">Print</button>
+        </div>
+    </div>
+
+    <h3 style="color: rgb(255, 255, 255);font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Overview</h3>
+    <div class="three">
+        <div class="box1">
+            <div class="RC">
+                <div>
+                    <p>Registered Clients</p>
+                </div>
+                <div>
+                    <p>+ 2%</p>
+                </div>
+            </div>
+
+            <h1>500</h1>
+
+        </div>
+        <div class="box2">
+            <div class="AB">
+                <div>
+                    <p>Annual Budget</p>
+                </div>
+                <div>
+                    <p>- 6%</p>
+                </div>
+            </div>
+
+            <h1>₱72.4 mill</h1>
+            
+        </div>
+        <div class="box3">
+            <div class="O">
+                <div>
+                    <p>Outlet</p>
+                </div>
+                <div>
+                    <p>+ 5%</p>
+                </div>
+            </div>
+
+            <h1>7,000</h1>
+
+        </div>
+    </div><br>
+
+    <div class="four">
+        <div class="square">
+            <div class="rectangle">
+                <div id="chart_div" style="width: 97%; height: 397px; border-radius: 20px; "></div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

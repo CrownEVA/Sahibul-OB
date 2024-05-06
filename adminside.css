@@ -1,0 +1,158 @@
+body{
+    height: 150vh;
+    margin: 0%;
+    padding: 0%;
+}
+.one{
+    width: 100%;
+    height: 150vh;
+   
+    background-image: linear-gradient(to bottom right, red, yellow);
+    position: relative;
+}
+
+.two{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+.three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 .4rem .8rem rgba(121, 121, 121, 0.333);
+    z-index: 1;
+}
+ul{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.logo{
+    padding-left: 150px;
+}
+img{
+    padding: 5px;
+}
+.two div h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+#date{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px;
+
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#button{
+    background-color: rgb(255, 217, 0);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(255, 217, 0);
+    border-radius: 20px;
+}
+.two div p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0%;
+}
+.logo a{
+    text-decoration: none;
+   font-size: 50px;
+   color: rgb(0, 0, 0);
+}
+h3{
+    padding-left: 150px;
+}
+.box1{
+    width: 325px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    background: url(box1.jpg);
+    
+}
+.box2{
+    width: 325px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    background: url(box2.jpg);
+    
+}
+.box3{
+    width: 325px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    background: url(box3.jpg);
+    
+}
+
+.RC,.AB,.O{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 h1,.box2 h1,.box3 h1{
+    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.square{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.rectangle{
+    width: 1200px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.longrectangle{
+    width: 325px;
+    height: 400px;
+    border: 1px solid #053359;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(5, 51, 89,0.2);
+    background-color: white;
+}
